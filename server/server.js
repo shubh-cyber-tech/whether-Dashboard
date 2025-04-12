@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // Use a valid API key
-const API_KEY = '4bd5a3f7c9ae10a430f12ad24031f6ee';
+const API_KEY = 'ENTER YOUR API';
 
 app.get('/weather', async (req, res) => {
     try {
